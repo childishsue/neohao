@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+*{font-family:'Noto Sans TC'!important}
+a{text-decoration:none;cursor:pointer;outline:0}
+p{font-size:5em}
+img{width:100%;height:auto;vertical-align:bottom;vertical-align:-webkit-baseline-middle}
+.clearfix{zoom:1}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearFix:after{clear:both;height:0;overflow:hidden;visibility:hidden}
+.display_mobile{display:none}
+.whiteslide #fp-nav ul li a span,.whiteslide .fp-slidesNav ul li a span{background:#7b6c63;border:none}
+.whiteslide #fp-nav ul li a.active span,.whiteslide .fp-slidesNav ul li a.active span{width:11px;height:11px;border:none}
+.custom-c-f{padding-right:0;padding-left:0}
+.navbar-shadow{box-shadow:0 0 10px #7b6c63}
+.brand-word-color{font-size:1rem;color:#7b6c63!important}
+.navbar a img{width:5vw}
+.navbar a img{margin-right:.5vw}
+.navbar li.nav-item{padding:0rem 2rem}
+.nbbg{margin-left:auto;margin-right:auto;background-image:url(../images/notebook.png);background-position:center center;background-size:contain;background-repeat:no-repeat;width:1200px;height:680px;position:relative;top:-4rem}
+.pdcontant{height:510px;width:70.5%;position:absolute;top:9.2%;left:14.6%;overflow-x:hidden}
+.nbbg .pdcontant figure{height:-moz-fill-available;height:-webkit-fill-available;height:-o-fill-available;height:-ms-fill-available}
+.slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:75%;margin-left:auto;margin-right:auto}
+.custom-c{background-color:unset;border:none;margin-left:2rem;margin-right:2rem}
+.custom-c-b{flex:none;border-bottom:solid 1px #fff;padding-bottom:.1rem;padding-left:0}
+.iconsupport{font-size:4rem;color:#fff}
+.iconsupport2{font-size:3rem;color:#7c6c63}
+.iconsupport3{font-size:4rem;color:#fff}
+.goldenslide .fp-controlArrow.fp-prev{left:50px;border:none;width:50px;height:100px;background:url(../images/goleftarrows_w.svg) no-repeat;cursor:pointer}
+.goldenslide .fp-controlArrow.fp-next{right:50px;border:none;width:50px;height:100px;background:url(../images/gorightarrows_w.svg) no-repeat;cursor:pointer}
+.whiteslide .fp-controlArrow.fp-prev{left:50px;border:none;width:50px;height:100px;background:url(../images/goleftarrows_g.svg) no-repeat;cursor:pointer}
+.whiteslide .fp-controlArrow.fp-next{right:50px;border:none;width:50px;height:100px;background:url(../images/gorightarrows_g.svg) no-repeat;cursor:pointer}
+.goldenslide h1,.goldenslide h6{display:inline-block;margin-right:.5rem;color:#fff}
+.goldenslide h6{font-weight:lighter}
+.goldenslide #fp-nav ul li a span,.goldenslide .fp-slidesNav ul li a span{background:#fff;border:none}
+.goldenslide #fp-nav ul li a.active span,.goldenslide .fp-slidesNav ul li a.active span{width:11px;height:11px;border:none}
+.goldenslide .slidesContainer-part1 dl,.goldenslide .slidesContainer-part1 ul{margin-top:1rem;font-size:18px;font-weight:400;color:#fff}
+.goldenslide .slidesContainer-part1 ul li{line-height:2.5rem}
+.goldenslide .slidesContainer-part1 dt{font-weight:400}
+.goldenslide .slidesContainer-part1 dd{margin-bottom:1rem}
+.goldenslide .slidesContainer-part2 ul,.goldenslide .slidesContainer-part3 ul{margin-top:1.5rem;font-weight:400;color:#fff}
+.goldenslide .slidesContainer-part2 ul li{display:inline-table;margin-right:.5rem;margin-left:.5rem;margin-bottom:2rem}
+.goldenslide .slidesContainer-part2 ul li:last-child{filter:opacity(50%)}
+.goldenslide .slidesContainer-part2 article:nth-child(2) ul li:nth-child(n+6){filter:opacity(50%)}
+.goldenslide .slidesContainer-part2 ul li p{font-size:1rem;text-align:center;padding-top:.5rem}
+.goldenslide .slidesContainer-part2 ul li p::after{content:"..."}
+.goldenslide .slidesContainer-part3 ul li{position:relative;display:inline-grid;margin-right:.5rem;margin-left:.5rem;margin-bottom:2rem;width:80px;height:80px;background-color:#fff;text-align:center;border-radius:999em}
+.goldenslide .slidesContainer-part3 article:nth-child(2) ul li{background-color:unset}
+.goldenslide .slidesContainer-part3 ul li p{position:relative;font-size:1rem;color:#fff;line-height:1rem}
+.goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:40px}
+.goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:25px}
+.whiteslide section article div.ptitle{margin-bottom:1rem}
+.whiteslide section article h1{font-size:3rem;color:#7c6c63;display:inline-block;vertical-align:bottom;margin-right:.5rem}
+.whiteslide section article h3{color:#7c6c63;display:inline-block;vertical-align:bottom}
+.whiteslide section article ul{display:inline-flex;flex-wrap:wrap}
+.whiteslide section article ul li{margin:0 1rem 1rem 0;border:1px solid #7c6c63;position:relative;display:inline-flex}
+.whiteslide section article ul li figure{position:relative;z-index:1;display:inline-block;overflow:hidden;width:100%;height:auto;text-align:center;cursor:pointer;margin:0 0}
+.whiteslide section article ul li figure img{position:relative;display:block;min-height:100%;opacity:.8}
+.whiteslide section article ul li figure figcaption{padding:2em;color:#fff;text-transform:uppercase;font-size:1.25em;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.whiteslide section article ul li figure figcaption::after,.whiteslide section article ul li figure figcaption::before{pointer-events:none}
+.whiteslide section article ul li figure a,.whiteslide section article ul li figure figcaption{position:absolute;top:0;left:0;width:100%;height:100%}
+.whiteslide section article ul li figure a{z-index:1000;text-indent:200%;white-space:nowrap;font-size:0;opacity:0}
+.whiteslide section article ul li figure p{margin:0;letter-spacing:1px;font-size:80%}
+.whiteslide section article ul li figure.effect-sadie figcaption::before{position:absolute;top:0;left:0;width:100%;height:100%;background:-webkit-linear-gradient(top,rgba(255,255,255,0) 0,rgba(124,108,99,.6) 75%);background:linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(124,108,99,.6) 75%);content:'';opacity:0;-webkit-transform:translate3d(0,50%,0);transform:translate3d(0,50%,0)}
+.whiteslide section article ul li figure.effect-sadie figcaption::before,.whiteslide section article ul li figure.effect-sadie p{-webkit-transition:opacity .35s,-webkit-transform .35s;transition:opacity .35s,transform .35s}
+.whiteslide section article ul li figure.effect-sadie p{position:absolute;bottom:0;left:0;padding:1em;width:100%;opacity:0;-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}
+.whiteslide section article ul li figure.effect-sadie:hover figcaption::before,.whiteslide section article ul li figure.effect-sadie:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.fancybox-caption{font-size:1rem;filter:opacity(70%)}
+.fancybox-caption:after{border-bottom:1px solid hsla(0,0%,100%,1)}
+.fancybox-slide {padding:unset}
+.fancybox-slide--iframe .fancybox-content{background:rgba(255, 255, 255, 0)}

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>個人作品及網站</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+  <link href="style/reset.css" rel="stylesheet" type="text/css">
+  <link href="style/normalize.css" rel="stylesheet" type="text/css">
+  <link href="style/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="style/jquery.fullPage.min.css" rel='stylesheet prefetch' type="text/css">
+  <link href="style/jquery.fancybox.min.css" rel='stylesheet' type="text/css">
+  <link href="style/fontsicon.css" rel="stylesheet" type="text/css">
+  <link href="style/style.css" rel="stylesheet" type="text/css">
+  <link href="style/mobileview.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+  <script type="text/javascript" src="js/createjs-2015.11.26.min.js"></script>
+  <script type="text/javascript" src="js/neoscanvas.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+  <div class="container-fluid custom-c-f">
+    <nav data-menuanchor="firstPage" class="navbar navbar-light navbar-expand-lg bg-white fixed-top navbar-shadow">
+        <a href="#firstPage" class="navbar-brand brand-word-color">
+          <img src="images/logo.svg" width="30" height="30" class="d-inline-block align-baseline" alt=""/>
+          Resume Website
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="nav navbar-nav">
+              <li data-menuanchor="secondPage" class="nav-item">
+                <a class="nav-link" href="#secondPage">About</a>
+              </li>
+              <li data-menuanchor="thirdPage" class="nav-item">
+                <a class="nav-link" href="#thirdPage">Recent</a>
+              </li>
+              <li data-menuanchor="fourthPage" class="nav-item">
+                <a class="nav-link" href="#fourthPage">Selection</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <div id="fullpage">
+    <div class="section page">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1950px; height:985px">
+		<canvas id="canvas" width="1950" height="985" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1950px; height:985px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+    </div>
+    <div class="section page goldenslide">
+      <div class="slide">
+        <section class="card-group slidesContainer-part1">
+          <article class="card custom-c">
+            <div class="card-body custom-c-b">
+              <h1>學歷</h1>
+              <h6>Education</h6>
+            </div>
+            <ul>
+              <li>1996 - 1999 復興商工 美工科</li>
+              <li>2001 - 2003 環球科技大學 視傳系 (肄)</li>
+              <li>2003 - 2006 台灣藝術大學 工藝系</li>
+            </ul>
+          </article>
+          <article class="card custom-c">
+            <div class="card-body custom-c-b">
+              <h1>經歷</h1>
+              <h6>Work Experience</h6>
+            </div>
+            <dl>
+              <dt>2013 - 2018 兼職接案</dt>
+              <dd>Visual Designer / Airbnb Host</dd>
+              <dt>2012 - 2013 亞卡西雅股份有限公司</dt>
+              <dd>Web Designer</dd>
+              <dt>2009 - 2011 康迅數位整合股份有限公司</dt>
+              <dd>Web Designer</dd>
+              <dt>2006 - 2007 沛恩實業股份有限公司</dt>
+              <dd>Product Designer</dd>
+            </dl>
+          </article>
+        </section>
+      </div>
+      <div class="slide">
+          <section class="slidesContainer-part2">
+          <article class="card custom-c">
+              <div class="card-body custom-c-b">
+                <h1>已安裝軟體</h1>
+                <h6>Including Software</h6>
+              </div>
+              <ul>
+                <li class="icon-sw01 iconsupport"></li>
+                <li class="icon-sw02 iconsupport"></li>
+                <li class="icon-sw03 iconsupport"></li>
+                <li class="icon-sw04 iconsupport"></li>
+                <li class="icon-sw05 iconsupport"></li>
+                <li class="icon-sw06 iconsupport"></li>
+                <li class="icon-sw07 iconsupport"></li>
+                <li class="icon-sw08 iconsupport"></li>
+                <li class="icon-sw09 iconsupport"></li>
+                <li class="icon-sw10 iconsupport"></li>
+                <li class="icon-sw11 iconsupport"></li>
+                <li class="icon-sw12 iconsupport"></li>
+                <li class="icon-sw13 iconsupport"></li>
+                <li class="icon-sw14 iconsupport"><p class="display_pc">50%</p></li>
+              </ul>
+          </article>
+          <article class="card custom-c">
+                <div class="card-body custom-c-b">
+                  <h1>支援語言</h1>
+                  <h6>Languages Support</h6>
+                </div>
+                <ul>
+                    <li class="icon-lang01 iconsupport"></li>
+                    <li class="icon-lang02 iconsupport"></li>
+                    <li class="icon-lang03 iconsupport"></li>
+                    <li class="icon-lang04 iconsupport"></li>
+                    <li class="icon-lang05 iconsupport"></li>
+                    <li class="icon-lang06 iconsupport"><p class="display_pc">50%</p></li>
+                    <li class="icon-lang07 iconsupport"><p class="display_pc">40%</p></li>
+                    <li class="icon-lang08 iconsupport"><p class="display_pc">Installing</p></li>
+                </ul>
+          </article>
+          <article class="card custom-c">
+            <div class="card-body custom-c-b">
+              <h1>支援架構</h1>
+              <h6>Framework Support</h6>
+            </div>
+            <ul>
+                <li class="icon-fw01 iconsupport"></li>
+                <li class="icon-fw02 iconsupport"></li>
+                <li class="icon-fw03 iconsupport"><p class="display_pc">30%</p></li>
+            </ul>
+      </article>
+          </section>
+      </div>
+      <div class="slide">
+          <section class="slidesContainer-part3">
+              <article class="card custom-c">
+                  <div class="card-body custom-c-b">
+                    <h1>適用範圍</h1>
+                    <h6>Application Scope</h6>
+                  </div>
+                  <ul>
+                    <li class="icon-app01 iconsupport2"><p>Illustration</p></li>
+                    <li class="icon-app02 iconsupport2"><p>Branding</p></li>
+                    <li class="icon-app03 iconsupport2"><p>Graphic Design</p></li>
+                    <li class="icon-app04 iconsupport2"><p>Printing Monitor</p></li>
+                    <li class="icon-app05 iconsupport2"><p>Ux/Ui Design</p></li>
+                    <li class="icon-app06 iconsupport2"><p>Web design</p></li>
+                    <li class="icon-app07 iconsupport2"><p>Creativity</p></li>
+                  </ul>
+              </article>
+              <article class="card custom-c">
+                    <div class="card-body custom-c-b">
+                      <h1>個人化項目</h1>
+                      <h6>personalize</h6>
+                    </div>
+                    <ul>
+                        <li class="icon-ps01 iconsupport3"><p>Eat & Cook</p></li>
+                        <li class="icon-ps02 iconsupport3"><p>backpack travel</p></li>
+                        <li class="icon-ps03 iconsupport3"><p>Play Game</p></li>
+                        <li class="icon-ps04 iconsupport3"><p>Love Music</p></li>
+                        <li class="icon-ps05 iconsupport3"><p>Cinephile</p></li>
+                        <li class="icon-ps06 iconsupport3"><p>Photo graphic</p></li>
+                        <li class="icon-ps07 iconsupport3"><p>Disco Jockey</p></li>
+                        <li class="icon-ps08 iconsupport3"><p>Poop Picker</p></li>
+                    </ul>
+              </article>
+              </section>
+      </div>
+    </div>
+    <div id="part3" class="section page">
+        <div class="nbbg">
+            <div class="pdcontant">
+              <figure><img src="images/makeupforever_1.jpg" width="1148" height="8400" alt=""/></figure>
+            </div>
+        </div>
+    </div>
+    <div id="part4" class="section page whiteslide">
+      <div class="slide">
+          <section class="slidesContainer-part1">
+              <article class="card custom-c">  
+                <div class="ptitle"><h1>視覺識別</h1><h3>Visual Identity</h3></div>     
+        <ul id="open_fancybox_images">
+          <li>
+                <figure class="effect-sadie">
+                    <img src="images/selectionlogo/liberatedarea.jpg" alt="解放區"/>
+                    <figcaption>
+                      <p>解放區</p>
+                      <a href="#">View more</a>
+                    </figcaption>
+                  </figure>
+          </li>
+          <li>
+              <figure class="effect-sadie">
+                  <img src="images/selectionlogo/neohao.jpg" alt="你好設計"/>
+                  <figcaption>
+                    <p>你好設計</p>
+                    <a href="#">View more</a>
+                  </figcaption>
+                </figure>
+          </li>
+          <li>
+              <figure class="effect-sadie">
+                  <img src="images/selectionlogo/tripresso.jpg" alt="旅遊咖"/>
+                  <figcaption>
+                    <p>旅遊咖</p>
+                    <a href="#">View more</a>
+                  </figcaption>
+                </figure>
+          </li>
+          <li>
+              <figure class="effect-sadie">
+                  <img src="images/selectionlogo/underwar.jpg" alt="UW內衣"/>
+                  <figcaption>
+                    <p>UW內衣</p>
+                    <a href="#">View more</a>
+                  </figcaption>
+                </figure>
+          </li>
+          <li>
+              <figure class="effect-sadie">
+                  <img src="images/selectionlogo/naughty.jpg" alt="娜緹內著"/>
+                  <figcaption>
+                    <p>娜緹內著</p>
+                    <a href="#">View more</a>
+                  </figcaption>
+                </figure>
+          </li>
+        </ul>
+      </article>
+      </section>
+      </div>
+      <div class="slide">
+          <section class="slidesContainer-part1">
+              <article class="card custom-c">  
+                  <div class="ptitle"><h1>平面設計</h1><h3>Graphic Design</h3></div> 
+        <ul id="open_fancybox2_images2">
+          <li>
+                <figure class="effect-sadie">
+                    <img src="images/selectionlogo/payeasy.jpg" alt="PayEasy"/>
+                    <figcaption>
+                      <p>PayEasy</p>
+                      <a href="#">View more</a>
+                    </figcaption>
+                  </figure>
+          </li>
+          <li>
+              <figure class="effect-sadie">
+                  <img src="images/selectionlogo/cosmosbank.jpg" alt="萬泰銀行"/>
+                  <figcaption>
+                    <p>萬泰銀行</p>
+                    <a href="#">View more</a>
+                  </figcaption>
+                </figure>
+          </li>
+          <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/puma.jpg" alt="PUMA"/>
+                <figcaption>
+                  <p>PUMA</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+          </li>
+          <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/mazeltrading.jpg" alt="MazelTrading"/>
+                <figcaption>
+                  <p>MazelTrading</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+         </li>
+          <li>
+              <figure class="effect-sadie">
+                  <img src="images/selectionlogo/migo.jpg" alt="Migo"/>
+                  <figcaption>
+                    <p>Migo</p>
+                    <a href="#">View more</a>
+                  </figcaption>
+                </figure>
+          </li>
+        </ul>
+      </article>
+      </section>
+      </div>
+      <div class="slide">
+          <section class="slidesContainer-part1">
+              <article class="card custom-c">  
+                  <div class="ptitle"><h1>網站設計</h1><h3>Website Design</h3></div>   
+        <ul id="open_fancybox3_images3">
+          <li>
+              <figure class="effect-sadie">
+                  <img src="images/selectionlogo/lotos.jpg" alt="樂朵詩"/>
+                  <figcaption>
+                    <p>樂朵詩</p>
+                    <a href="#">View more</a>
+                  </figcaption>
+                </figure>
+          </li>
+          <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/mazeltrading.jpg" alt="MazelTrading"/>
+                <figcaption>
+                  <p>MazelTrading</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+        </li>
+        <li>
+          <figure class="effect-sadie">
+              <img src="images/selectionlogo/adtc.jpg" alt="群信行動數位科技"/>
+              <figcaption>
+                <p>群信行動數位科技</p>
+                <a href="#">View more</a>
+              </figcaption>
+            </figure>
+      </li>
+      <li>
+        <figure class="effect-sadie">
+            <img src="images/selectionlogo/sushi.jpg" alt="爭鮮"/>
+            <figcaption>
+              <p>爭鮮</p>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
+      </li>
+      <li>
+        <figure class="effect-sadie">
+            <img src="images/selectionlogo/marilyn.jpg" alt="瑪麗蓮"/>
+            <figcaption>
+              <p>瑪麗蓮</p>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
+       </li>
+        </ul>
+      </article>
+      </section>
+      </div>
+      <div class="slide">
+        <section class="slidesContainer-part1">
+            <article class="card custom-c">  
+                <div class="ptitle"><h1>活動網頁</h1><h3>Event site Design</h3></div>   
+      <ul id="open_fancybox3_images4">
+        <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/tripresso.jpg" alt="旅遊咖"/>
+                <figcaption>
+                  <p>旅遊咖</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+        </li>
+        <li>
+          <figure class="effect-sadie">
+              <img src="images/selectionlogo/starbucks.jpg" alt="星巴克"/>
+              <figcaption>
+                <p>星巴克</p>
+                <a href="#">View more</a>
+              </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/gohappy.jpg" alt="GoHappy"/>
+                <figcaption>
+                  <p>GoHappy</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+        </li>
+        <li>
+          <figure class="effect-sadie">
+              <img src="images/selectionlogo/makeupforever.jpg" alt="makeupforever"/>
+              <figcaption>
+                <p>makeupforever</p>
+                <a href="#">View more</a>
+              </figcaption>
+            </figure>
+      </li>
+      </ul>
+    </article>
+    </section>
+    </div>
+      <div class="slide">
+        <section class="slidesContainer-part1">
+            <article class="card custom-c">  
+                <div class="ptitle"><h1>網路廣告</h1><h3>Web Advertising</h3></div>   
+      <ul id="open_fancybox3_images5">
+        <li>
+            <figure class="effect-sadie">
+              <img src="images/selectionlogo/unt.jpg" alt="UNT"/>
+              <figcaption>
+                <p>UNT</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+        </li>
+        <li>
+          <figure class="effect-sadie">
+            <img src="images/selectionlogo/naruko.jpg" alt="NARUKO"/>
+            <figcaption>
+              <p>NARUKO</p>
+                <a href="#">View more</a>
+              </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/maybelline.jpg" alt="MAYBELLINE"/>
+                <figcaption>
+                  <p>MAYBELLINE</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+        </li>
+        <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/philosophy.jpg" alt="肌膚哲理"/>
+                <figcaption>
+                  <p>肌膚哲理</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+        </li>
+        <li>
+          <figure class="effect-sadie">
+            <img src="images/selectionlogo/peterthomassoth.jpg" alt="彼得羅夫"/>
+            <figcaption>
+              <p>彼得羅夫</p>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+            <figure class="effect-sadie">
+                <img src="images/selectionlogo/migo.jpg" alt="功典資訊"/>
+                <figcaption>
+                  <p>功典資訊</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+        </li>
+        <li>
+          <figure class="effect-sadie">
+              <img src="images/selectionlogo/makeupforever.jpg" alt="makeupforever"/>
+              <figcaption>
+                <p>makeupforever</p>
+                <a href="#">View more</a>
+              </figcaption>
+            </figure>
+      </li>
+      </ul>
+    </article>
+    </section>
+    </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

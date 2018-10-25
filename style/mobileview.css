@@ -1,0 +1,159 @@
+@media all and (min-width:960px) and (max-width:1199px){
+.display_mobile{display:block}
+.display_pc{display:none}
+.navbar a img{width:10vw;font-size:1.5rem}
+.navbar a.nav-link{font-size:1.5rem;margin-top:1rem}
+.nbbg{width:180%;left:-23rem}
+.pdcontant{width:50.6%;height:79.7%;left:24.7%;top:9.8%}
+}
+@media all and (min-width:768px) and (max-width:959px){
+.display_mobile{display:block}
+.display_pc{display:none}
+.navbar-toggler{padding:.15rem .45rem;font-size:1.8rem}
+.navbar a img{width:15vw;font-size:1.8rem}
+.navbar ul.navbar-nav{margin-top:1rem;width:unset!important}
+.navbar li.nav-item{border-top-style:solid;border-top-color:#c3c3c3;border-top-width:1px;padding:.01rem .5rem;flex-basis:unset!important}
+.navbar a.nav-link{font-size:1.5rem}
+.nbbg{width:180%;left:-23rem}
+.pdcontant{width:50.6%;height:79.7%;left:24.7%;top:9.8%}
+}
+@media all and (min-width:480px) and (max-width:767px){
+.display_mobile{display:block}
+.display_pc{display:none}
+.navbar-toggler{padding:.15rem .45rem;font-size:1.7rem}
+.navbar a img{width:18vw;font-size:1.7rem}
+.navbar ul.navbar-nav{margin-top:1rem;width:unset!important}
+.navbar li.nav-item{border-top-style:solid;border-top-color:#c3c3c3;border-top-width:1px;padding:.01rem .5rem;flex-basis:unset!important}
+.navbar a.nav-link{font-size:1.2rem}
+canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-17rem}
+.nbbg{width:180%;left:-23rem}
+.pdcontant{width:70.5%;height:29%;left:14.5%;top:34.1%}
+.slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:90%}
+.custom-c{margin-left:.5rem;margin-right:.5rem}
+.custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.8rem}
+.goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
+.goldenslide h1{font-size:1.7rem}
+.goldenslide .slidesContainer-part1 dl,.goldenslide .slidesContainer-part1 ul{font-size:16px;margin-bottom:.5rem}
+.goldenslide .slidesContainer-part1 ul li{line-height:2rem}
+.goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
+.goldenslide .slidesContainer-part3 ul{margin-top:1rem}
+.goldenslide .slidesContainer-part3 ul li{width:60px;height:60px;margin-right:.5rem;margin-left:.5rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
+.goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
+.goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
+.iconsupport{font-size:2.5rem;line-height:.8rem}
+.iconsupport2{font-size:2rem}
+.iconsupport3{font-size:2.5rem}
+.whiteslide section article ul li{width:30%}
+.whiteslide section article ul li{margin:0 .6rem .6rem 0}
+.whiteslide section article h1{font-size:1.5rem}
+.whiteslide section article h3{font-size:.8rem}
+.fancybox-caption{font-size:1rem;padding:10px 20px;filter:opacity(70%)}
+.fancybox-caption:after{border-bottom:1px solid hsla(0,0%,100%,1);left:0;right:0}
+}
+@media all and (min-width:414px) and (max-width:479px){
+.display_mobile{display:block}
+.display_pc{display:none}
+.navbar-toggler{padding:.15rem .45rem;font-size:1rem}
+.navbar a img{width:20vw;font-size:1rem}
+.navbar ul.navbar-nav{margin-top:1rem;width:unset!important}
+.navbar li.nav-item{border-top-style:solid;border-top-color:#c3c3c3;border-top-width:1px;padding:.01rem .5rem;flex-basis:unset!important}
+.navbar a.nav-link{font-size:1rem}
+canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-19rem}
+.nbbg{width:125%;left:-3rem}
+.pdcontant{width:70.7%;height:32%;left:14.5%;top:32.5%}
+.slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:90%}
+.custom-c{margin-left:.5rem;margin-right:.5rem}
+.custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.8rem}
+.goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
+.goldenslide h1{font-size:1.7rem}
+.goldenslide .slidesContainer-part1 dl,.goldenslide .slidesContainer-part1 ul{font-size:16px;margin-bottom:.5rem}
+.goldenslide .slidesContainer-part1 ul li{line-height:2rem}
+.goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
+.goldenslide .slidesContainer-part3 ul{margin-top:1rem}
+.goldenslide .slidesContainer-part3 ul li{width:60px;height:60px;margin-right:.5rem;margin-left:.5rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
+.goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
+.goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
+.iconsupport{font-size:2.5rem;line-height:.8rem}
+.iconsupport2{font-size:2rem}
+.iconsupport3{font-size:2.5rem}
+.whiteslide section article ul li{width:30%}
+.whiteslide section article ul li{margin:0 .6rem .6rem 0}
+.whiteslide section article h1{font-size:1.5rem}
+.whiteslide section article h3{font-size:.8rem}
+.fancybox-caption{font-size:1rem;padding:10px 20px;filter:opacity(70%)}
+.fancybox-caption:after{border-bottom:1px solid hsla(0,0%,100%,1);left:0;right:0}
+}
+@media all and (min-width:320px) and (max-width:413px){
+.display_mobile{display:block}
+.display_pc{display:none}
+.navbar-toggler{padding:.15rem .45rem;font-size:1rem}
+.navbar a img{width:20vw;font-size:1rem}
+.navbar ul.navbar-nav{margin-top:1rem;width:unset!important}
+.navbar li.nav-item{border-top-style:solid;border-top-color:#c3c3c3;border-top-width:1px;padding:.01rem .5rem;flex-basis:unset!important}
+.navbar a.nav-link{font-size:1rem}
+canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-17rem}
+.nbbg{width:125%;left:-2.6rem}
+.pdcontant{width:70.5%;height:29%;left:14.5%;top:34.1%}
+.slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:90%}
+.custom-c{margin-left:.5rem;margin-right:.5rem}
+.custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.8rem}
+.goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
+.goldenslide h1{font-size:1.7rem}
+.goldenslide .slidesContainer-part1 dl,.goldenslide .slidesContainer-part1 ul{font-size:16px;margin-bottom:.5rem}
+.goldenslide .slidesContainer-part1 ul li{line-height:2rem}
+.goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
+.goldenslide .slidesContainer-part3 ul{margin-top:1rem}
+.goldenslide .slidesContainer-part3 ul li{width:60px;height:60px;margin-right:.4rem;margin-left:.4rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
+.goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
+.goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
+.iconsupport{font-size:2.5rem;line-height:.8rem}
+.iconsupport2{font-size:2rem}
+.iconsupport3{font-size:2.5rem}
+.whiteslide section article ul li{width:30%}
+.whiteslide section article ul li{margin:0 .6rem .6rem 0}
+.whiteslide section article h1{font-size:1.5rem}
+.whiteslide section article h3{font-size:.8rem}
+.fancybox-caption{font-size:1rem;padding:10px 20px;filter:opacity(70%)}
+.fancybox-caption:after{border-bottom:1px solid hsla(0,0%,100%,1);left:0;right:0}
+}
+@media all and (max-width:320px){
+.display_mobile{display:block}
+.display_pc{display:none}
+.navbar-toggler{padding:.15rem .45rem;font-size:1rem}
+.navbar a img{width:20vw;font-size:1rem}
+.navbar ul.navbar-nav{margin-top:1rem;width:unset!important}
+.navbar li.nav-item{border-top-style:solid;border-top-color:#c3c3c3;border-top-width:1px;padding:.01rem .5rem;flex-basis:unset!important}
+.navbar a.nav-link{font-size:1rem}
+canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-14.5rem}
+.nbbg{width:125%;left:-2.2rem}
+.pdcontant{width:71%;height:24.8%;left:14%;top:36.5%}
+.slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:90%}
+.custom-c{margin-left:.5rem;margin-right:.5rem}
+.custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.8rem}
+.goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
+.goldenslide h1{font-size:1.7rem}
+.goldenslide .slidesContainer-part1 dl,.goldenslide .slidesContainer-part1 ul{font-size:16px;margin-bottom:.5rem}
+.goldenslide .slidesContainer-part1 ul li{line-height:2rem}
+.goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
+.goldenslide .slidesContainer-part3 ul{margin-top:1rem}
+.goldenslide .slidesContainer-part3 ul li{width:60px;height:60px;margin-right:.4rem;margin-left:.4rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
+.goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
+.goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
+.iconsupport{font-size:2.5rem;line-height:.8rem}
+.iconsupport2{font-size:2rem}
+.iconsupport3{font-size:2.5rem}
+.whiteslide section article ul li{width:30%}
+.whiteslide section article ul li{margin:0 .6rem .6rem 0}
+.whiteslide section article h1{font-size:1.5rem}
+.whiteslide section article h3{font-size:.8rem}
+.fancybox-caption{font-size:1rem;padding:10px 20px;filter:opacity(70%)}
+.fancybox-caption:after{border-bottom:1px solid hsla(0,0%,100%,1);left:0;right:0}
+}
