@@ -32,7 +32,7 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-17rem}
 .custom-c{margin-left:.5rem;margin-right:.5rem}
 .slidesContainer-part1 .card{margin-bottom:5px}
 .custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
-.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.7rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.6rem}
 .goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
 .goldenslide h1{font-size:1.7rem}
 .slidesContainer-part1 .card{margin-bottom:5px}
@@ -42,13 +42,13 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-17rem}
 .slidesContainer-part2 article{margin-bottom:-1rem}
 .goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
 .goldenslide .slidesContainer-part2 ul{margin-bottom:0.6rem;margin-top:1.6rem}
-.goldenslide .slidesContainer-part3 ul li{width:50px;height:50px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li{width:44px;height:44px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
 .goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
 .goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
 .goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
 .iconsupport{font-size:1.9rem;line-height:.8rem}
-.iconsupport2{font-size:2rem}
-.iconsupport3{font-size:2.5rem}
+.iconsupport2{font-size:1.8rem}
+.iconsupport3{font-size:2rem}
 .whiteslide section article ul li{width:30%}
 .whiteslide section article ul li{margin:0 .6rem .6rem 0}
 .whiteslide section article h1{font-size:1.5rem}
@@ -72,7 +72,7 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-19rem}
 .custom-c{margin-left:.5rem;margin-right:.5rem}
 .slidesContainer-part1 .card{margin-bottom:5px}
 .custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
-.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.7rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.6rem}
 .goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
 .goldenslide h1{font-size:1.7rem}
 .slidesContainer-part1 .card{margin-bottom:5px}
@@ -83,13 +83,13 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-19rem}
 .goldenslide .slidesContainer-part2 ul{margin-bottom:0.5rem;margin-top:1.6rem}
 .goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
 .goldenslide .slidesContainer-part3 ul{margin-top:0.6rem;margin-bottom:0rem}
-.goldenslide .slidesContainer-part3 ul li{width:50px;height:50px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li{width:44px;height:44px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
 .goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
 .goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
 .goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
 .iconsupport{font-size:1.9rem;line-height:.8rem}
-.iconsupport2{font-size:2rem}
-.iconsupport3{font-size:2.5rem}
+.iconsupport2{font-size:1.8rem}
+.iconsupport3{font-size:2rem}
 .whiteslide section article ul li{width:30%}
 .whiteslide section article ul li{margin:0 .6rem .6rem 0}
 .whiteslide section article h1{font-size:1.5rem}
@@ -113,7 +113,7 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-17rem}
 .custom-c{margin-left:.5rem;margin-right:.5rem}
 .slidesContainer-part1 .card{margin-bottom:5px}
 .custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
-.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.7rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.6rem}
 .goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
 .goldenslide h1{font-size:1.7rem}
 .slidesContainer-part1 .card{margin-bottom:5px}
@@ -124,13 +124,13 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-17rem}
 .goldenslide .slidesContainer-part2 ul{margin-bottom:0.5rem;margin-top:1.6rem}
 .goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
 .goldenslide .slidesContainer-part3 ul{margin-top:0.6rem;margin-bottom:0rem}
-.goldenslide .slidesContainer-part3 ul li{width:50px;height:50px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li{width:44px;height:44px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
 .goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
 .goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
 .goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
 .iconsupport{font-size:1.9rem;line-height:.8rem}
-.iconsupport2{font-size:2rem}
-.iconsupport3{font-size:2.5rem}
+.iconsupport2{font-size:1.8rem}
+.iconsupport3{font-size:2rem}
 .whiteslide section article ul li{width:30%}
 .whiteslide section article ul li{margin:0 .6rem .6rem 0}
 .whiteslide section article h1{font-size:1.5rem}
@@ -153,7 +153,7 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-14.5rem}
 .slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:90%}
 .custom-c{margin-left:.5rem;margin-right:.5rem}
 .custom-c-b{padding-bottom:.5rem;padding-top:.5rem}
-.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.7rem}
+.icon-app01:before,.icon-app02:before,.icon-app03:before,.icon-app04:before,.icon-app05:before,.icon-app06:before,.icon-app07:before,.icon-ps01:before,.icon-ps02:before,.icon-ps03:before,.icon-ps04:before,.icon-ps05:before,.icon-ps06:before,.icon-ps07:before,.icon-ps08:before{top:.6rem}
 .goldenslide .fp-controlArrow.fp-next,.goldenslide .fp-controlArrow.fp-prev,.whiteslide .fp-controlArrow.fp-next,.whiteslide .fp-controlArrow.fp-prev{display:none}
 .goldenslide h1{font-size:1.7rem}
 .slidesContainer-part1 .card{margin-bottom:5px}
@@ -164,13 +164,13 @@ canvas#canvas{width:290%!important;height:auto!important;top:6rem;left:-14.5rem}
 .goldenslide .slidesContainer-part2 ul{margin-bottom:0.5rem;margin-top:1.6rem}
 .goldenslide .slidesContainer-part2 ul li{margin-right:.18rem;margin-left:.18rem;margin-bottom:1.5rem}
 .goldenslide .slidesContainer-part3 ul{margin-top:0.6rem;margin-bottom:0rem}
-.goldenslide .slidesContainer-part3 ul li{width:50px;height:50px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
+.goldenslide .slidesContainer-part3 ul li{width:44px;height:44px;margin-right:.2rem;margin-left:.2rem;background-color:#fff}
 .goldenslide .slidesContainer-part3 ul li p{font-size:.8rem}
 .goldenslide .slidesContainer-part3 article:nth-child(1) ul li p{top:30px}
 .goldenslide .slidesContainer-part3 article:nth-child(2) ul li p{top:20px}
 .iconsupport{font-size:1.9rem;line-height:.8rem}
-.iconsupport2{font-size:2rem}
-.iconsupport3{font-size:2.5rem}
+.iconsupport2{font-size:1.8rem}
+.iconsupport3{font-size:2rem}
 .whiteslide section article ul li{width:30%}
 .whiteslide section article ul li{margin:0 .6rem .6rem 0}
 .whiteslide section article h1{font-size:1.5rem}
