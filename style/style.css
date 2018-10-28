@@ -16,9 +16,17 @@ img{width:100%;height:auto;vertical-align:bottom;vertical-align:-webkit-baseline
 .navbar a img{width:5vw}
 .navbar a img{margin-right:.5vw}
 .navbar li.nav-item{padding:0rem 2rem}
-.nbbg{margin-left:auto;margin-right:auto;background-image:url(../images/notebook.png);background-position:center center;background-size:contain;background-repeat:no-repeat;width:1200px;height:680px;position:relative;top:-4rem}
+.nbbg{margin-left:auto;margin-right:auto;background-image:url(../images/notebook.png);background-position:center center;background-size:contain;background-repeat:no-repeat;width:1200px;height:680px;position:relative;top:-2rem}
 .pdcontant{height:510px;width:70.5%;position:absolute;top:9.2%;left:14.6%;overflow-x:hidden}
 .nbbg .pdcontant figure{height:-moz-fill-available;height:-webkit-fill-available;height:-o-fill-available;height:-ms-fill-available}
+.tab_container{width:875px;height:auto;background:#fff;margin:1% auto}
+.pdpage_tab{width:75vw;height:auto;text-align:center;background-color:transparent;margin-left:auto;margin-right:auto}
+.pdpage_tab div{display:inline-block;font-size:0;margin-right:10px;margin-left:10px}
+.pdpage_tab div:first-child{margin-left:0}
+.pdpage_tab div:last-child{margin-right:0}
+.tab1 a,.tab2 a,.tab3 a,.tab4 a,.tab5 a{height:30px;display:block;background-repeat:no-repeat;color:#fff;font-size:15px;background:#000;line-height:30px;padding:0 15px}
+.tab1 a:hover,.tab2 a:hover,.tab3 a:hover,.tab4 a:hover,.tab5 a:hover{background-position:0 -85px}
+nav.pdpage_tab div.active a{background-position:0 -85px}
 .slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:75%;margin-left:auto;margin-right:auto}
 .custom-c{background-color:unset;border:none;margin-left:2rem;margin-right:2rem}
 .custom-c-b{flex:none;border-bottom:solid 1px #fff;padding-bottom:.1rem;padding-left:0}
@@ -66,5 +74,5 @@ img{width:100%;height:auto;vertical-align:bottom;vertical-align:-webkit-baseline
 .whiteslide section article ul li figure.effect-sadie:hover figcaption::before,.whiteslide section article ul li figure.effect-sadie:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
 .fancybox-caption{font-size:1rem;filter:opacity(70%)}
 .fancybox-caption:after{border-bottom:1px solid hsla(0,0%,100%,1)}
-.fancybox-slide {padding:unset}
-.fancybox-slide--iframe .fancybox-content{background:rgba(255, 255, 255, 0)}
+.fancybox-slide{padding:unset}
+.fancybox-slide--iframe .fancybox-content{background:rgba(255,255,255,0)}
