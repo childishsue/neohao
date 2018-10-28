@@ -20,13 +20,13 @@ img{width:100%;height:auto;vertical-align:bottom;vertical-align:-webkit-baseline
 .pdcontant{height:510px;width:70.5%;position:absolute;top:9.2%;left:14.6%;overflow-x:hidden}
 .nbbg .pdcontant figure{height:-moz-fill-available;height:-webkit-fill-available;height:-o-fill-available;height:-ms-fill-available}
 .tab_container{width:875px;height:auto;background:#fff;margin:1% auto}
-.pdpage_tab{width:75vw;height:auto;text-align:center;background-color:transparent;margin-left:auto;margin-right:auto}
-.pdpage_tab div{display:inline-block;font-size:0;margin-right:10px;margin-left:10px}
+.pdpage_tab{display:flex;justify-content:center}
+.pdpage_tab div{display:inline-block;font-size:0;margin-right:50px;margin-left:10px}
 .pdpage_tab div:first-child{margin-left:0}
 .pdpage_tab div:last-child{margin-right:0}
-.tab1 a,.tab2 a,.tab3 a,.tab4 a,.tab5 a{height:30px;display:block;background-repeat:no-repeat;color:#fff;font-size:15px;background:#000;line-height:30px;padding:0 15px}
-.tab1 a:hover,.tab2 a:hover,.tab3 a:hover,.tab4 a:hover,.tab5 a:hover{background-position:0 -85px}
-nav.pdpage_tab div.active a{background-position:0 -85px}
+.tab1 a,.tab2 a,.tab3 a,.tab4 a,.tab5 a{height:32px;display:block;background-repeat:no-repeat;color:#000;font-size:15px;background:#fff;line-height:30px;padding:0 15px;border-radius:15px;border-color:#000;border-style:solid;border-width:1px;text-decoration:none}
+.tab1 a:hover,.tab2 a:hover,.tab3 a:hover,.tab4 a:hover,.tab5 a:hover{background:#7b6c63;color:#fff;border-color:#7b6c63}
+nav.pdpage_tab div.active a{background:#7b6c63;color:#fff;border-color:#7b6c63}
 .slidesContainer-part1,.slidesContainer-part2,.slidesContainer-part3{width:75%;margin-left:auto;margin-right:auto}
 .custom-c{background-color:unset;border:none;margin-left:2rem;margin-right:2rem}
 .custom-c-b{flex:none;border-bottom:solid 1px #fff;padding-bottom:.1rem;padding-left:0}
