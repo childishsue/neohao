@@ -46,8 +46,6 @@ nav.pdpage_tab div.active a{background:#7b6c63;color:#fff;border-color:#7b6c63}
 .goldenslide .slidesContainer-part1 dd{margin-bottom:1rem}
 .goldenslide .slidesContainer-part2 ul,.goldenslide .slidesContainer-part3 ul{margin-top:1.5rem;font-weight:400;color:#fff}
 .goldenslide .slidesContainer-part2 ul li{display:inline-table;margin-right:.5rem;margin-left:.5rem;margin-bottom:2rem}
-.goldenslide .slidesContainer-part2 ul li:last-child{filter:opacity(50%)}
-.goldenslide .slidesContainer-part2 article:nth-child(2) ul li:nth-child(n+6){filter:opacity(50%)}
 .goldenslide .slidesContainer-part2 ul li p{font-size:1rem;text-align:center;padding-top:.5rem}
 .goldenslide .slidesContainer-part2 ul li p::after{content:"..."}
 .goldenslide .slidesContainer-part3 ul li{position:relative;display:inline-grid;margin-right:.5rem;margin-left:.5rem;margin-bottom:2rem;width:80px;height:80px;background-color:#fff;text-align:center;border-radius:999em}
